@@ -1,0 +1,8 @@
+<h2> {{ title }}</h2> <!-- String interpolation -->
+
+<button [disabled]="false"> CLICK HERE </button><!-- Propoerty biding -->
+
+<button (click)=" ChangerTitre()" > Changer titre  </button>
+
+<input type="text"  [(ngModel)]= "name" /> <!-- TWO WAY BIDING -->
+<h1>Bonjour {{ name }} </h1>
